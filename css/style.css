@@ -28,7 +28,7 @@ p {
 /* HEADER */
 .header {
 	padding: 50px 0;
-	background-image: url(https://gitlab.com/anna.bondarenko1/dinosaurs/-/raw/main/images/header.png);
+	background-image: url(https://raw.githubusercontent.com/annush-hub/dinosaurs/main/images/header.png);
   background-size:cover;
   background-repeat:no-repeat;
 }
