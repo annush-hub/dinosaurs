@@ -28,7 +28,7 @@ p {
 /* HEADER */
 .header {
 	padding: 50px 0;
-	background-image: url(https://raw.githubusercontent.com/annush-hub/dinosaurs/main/images/header.png);
+	background-image: url(https://gitlab.com/anna.bondarenko1/dinosaurs/-/raw/main/images/header.png);
   background-size:cover;
   background-repeat:no-repeat;
 }
@@ -76,3 +76,72 @@ p {
   margin-top: 30px;
 }
 
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 50%;
+  float: left;
+}
+
+ On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+main {
+  display: flex;
+}
+
+article, section {
+  flex: 1;
+}
+
+aside {
+  flex: 1;
+  margin-left: 10px;
+  padding: 2%;
+}
+
+aside div{
+  display: block;
+  width: 100%;
+  padding: 2%;
+}
+
+aside img {
+  max-width: 100%;
+}
+section{
+	padding-left: 2%;
+	text-align: justify;
+}
+.card-img {
+	float: left;
+	max-width: 50%;
+	padding: 2%;
+}
+.card-img img{
+	float: left;
+	max-width: 100%;
+	padding: 1%;
+}
+section p{
+	padding: 2%;
+}
+.side {
+	float: left;
+	max-width: 100%;
+	padding: 2%;
+	margin-top: 3%;
+}
+.side img{
+	float: left;
+	max-width: 100%;
+	padding: 1%;
+	margin-top: 3%;
+}
